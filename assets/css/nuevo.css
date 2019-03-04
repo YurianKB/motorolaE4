@@ -1,0 +1,186 @@
+@font-face{
+  font-family: "Gotham Bold";
+  src: url("../fonts/Gotham-Bold.otf");
+}
+@font-face{
+  font-family: "Gotham Book";
+  src: url("../fonts/GothamHTF-Book(2).otf");
+}
+@font-face{
+  font-family: "Gotham Light";
+  src: url("../fonts/GothamHTF-Light(1).otf");
+}
+@font-face{
+  font-family: "Gotham Medium";
+  src: url("../fonts/GothamHTF-Medium.otf");
+}
+
+.texto-paddingtop{
+  padding-top: 5%;
+}
+
+body{
+  font-family: "Gotham Book" !important;
+  letter-spacing: 0 !important;
+}
+
+.font-bold{
+  font-family: "Gotham Bold" !important;
+  letter-spacing: 0 !important;
+}
+
+.texto-mediano{
+  font-size: 20px;
+}
+
+.texto-grande{
+  font-size: 23px !important;
+}
+
+.texto-pequeño{
+  font-size: 11px;
+  font-family: "Gotham Light" !important;
+}
+.texto-azul{
+  color: #57C4E7;
+}
+
+.padding{
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.fondo-gris{
+  background-color: #141213;
+}
+
+.texto-blanco{
+  color: #FFFFFF;
+}
+
+.img-float{
+  float: left; 
+  margin: 8px
+}
+
+#estilo-input{
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  border-bottom: none;
+  height: 40px;
+  width: 290px;
+  padding: 1%;
+  margin: 0px;
+}
+
+#estilo-boton{
+  border: solid;
+  border-color: #5bc500;
+  width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 6px;
+  background: #5bc500;
+  color: #FFFFFF;
+  margin-left: 0px;
+
+}
+
+/*Seccion Motorola One*/
+.seccion-motorolaOne{
+  padding-top: 15%;
+  margin-left: 15px !important;
+}
+
+.iconos{
+  padding-top: 45%;
+}
+
+
+/*MOBILE*/
+@media only screen and (max-width: 768px) {
+  .ocultarEnMobile{
+    display: none;
+  }
+
+  .texto-centradoMobile{
+    text-align: center!important;
+  }
+
+  .tamaño-mobile{
+    height: 400px;
+  }
+
+  .estilo-margen-mobile{
+    margin-left: 24% !important;
+  }
+
+  .estilo-margen-mobile-boton{
+    margin-left: 33% !important;
+  }
+
+  .estilo-margen-mobile-mone{
+    margin-left: 25% !important
+  }
+
+  .estilo-margen-mobile-boton-mone{
+    margin-left: 35% !important;
+  }
+
+  .row, .col{
+    padding: 0px;
+  }
+
+  .iconos{
+    padding-top: 10%;
+    font-size: 20px;
+  }
+
+  .texto-pequeño{
+  font-size: 17px;
+  font-family: "Gotham Light" !important;
+}
+
+}
+
+/*ESCRITORIO*/
+@media only screen and (min-width: 992px) {
+  .ocultarEnEscritorio{
+    display: none;
+  }
+}
+
+/*@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  animation-duration: 5s;
+  /*animation-iteration-count: infinite;*/
+/*}*/
